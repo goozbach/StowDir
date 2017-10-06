@@ -1,4 +1,4 @@
-PREFIX ?= ${HOME}
+PREFIX ?= ${HOME}/stowdir
 .PHONY: all
 
 all:
