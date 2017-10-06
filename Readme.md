@@ -5,7 +5,7 @@ to use.
 
 ## Enabling stowdir
 
-Place the PREFIX in your `PATH` variable.
+Place the `PREFIX` in your `PATH` variable.
 Make sure to modify the startup files for your shell.
 
 For example (`.bashrc`):
@@ -29,13 +29,13 @@ For example (`.bashrc`):
 
 ## Changing the PREFIX
 By default it places the top level directory in your home directory (`${HOME}/stowdir`).
+Change the default location by setting the `PREFIX` variable.
 
     PREFIX=/some/dir make
 
 ## Cleaning up
 
-This make file will not clean anything up, you must manually remove the
-top-level directory.
+This make file will not clean anything up, you must manually remove the top-level directory.
 
-To restore the contents inside, run `make` then re-stow your scripts from
-elsewhere.
+To restore the contents inside, run `make` then re-stow your scripts from elsewhere.
+(You should only use `stow` to put things into the top-level stowdir, if you don't you can't clean up and keep things easily.)
