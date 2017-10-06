@@ -14,13 +14,14 @@ For example (`.bashrc`):
 
 ## Using the stowdir with your project
 1) Create a sub-hierarchy in your project
-
-    .
-    └── src
-        ├── bin
-        │   └── foo
-        └── etc
-            └── foo.conf
+```
+.
+└── src
+    ├── bin
+    │   └── foo
+    └── etc
+        └── foo.conf
+```
 
 2) Run the `stow` command with the target directory set to your stowdir.
 
