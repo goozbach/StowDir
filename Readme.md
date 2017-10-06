@@ -28,8 +28,7 @@ For example (`.bashrc`):
     stow -t ${HOME}/stowdir -R src/
 
 ## Changing the PREFIX
-By default it places the top level directory in your home directory
-(`${HOME}`).
+By default it places the top level directory in your home directory (`${HOME}/stowdir`).
 
     PREFIX=/some/dir make
 
@@ -39,3 +38,4 @@ This make file will not clean anything up, you must manually remove the
 top-level directory.
 
 To restore the contents inside, run `make` then re-stow your scripts from
+elsewhere.
